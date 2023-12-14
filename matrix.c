@@ -2,7 +2,7 @@
 
 void printMatrix(int a[3][3],int b[3][3]);
 void addMatrix(int a[3][3],int b[3][3]);
-//int cofactorMatrix(int a[3][3]);
+
 
 
 void printMatrix(int a[3][3],int b[3][3])
@@ -65,7 +65,7 @@ int main()
     }
     printMatrix(arr,brr);
     addMatrix(arr,brr);
-    //cofactorMatrix(arr);
+    
     return 0;
 }
 
